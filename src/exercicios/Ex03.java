@@ -1,5 +1,7 @@
 package exercicios;
 
+import java.util.Scanner;
+
 public class Ex03 {
 
     /*
@@ -15,6 +17,22 @@ public class Ex03 {
 
     */
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o dia: ");
+        int dia = scan.nextInt();
+
+        System.out.println("Digite o mês: ");
+        int mes = scan.nextInt();
+
+        System.out.println("Digite o ano: ");
+        int ano = scan.nextInt();
+
+        System.out.println("dia " + dia + " do " + mes + " de " + ano );
+        System.out.println(dia  +"/" + mes +"/" + ano);
+
+
+
 
     }
 
