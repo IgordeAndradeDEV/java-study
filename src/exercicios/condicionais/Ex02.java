@@ -1,5 +1,7 @@
 package exercicios.condicionais;
 
+import java.util.Scanner;
+
 public class Ex02 {
 
     /*
@@ -10,7 +12,16 @@ public class Ex02 {
         ACESSO	NEGADO	caso	a	senha	seja	inválida
     */
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
+        System.out.println("Digite sua senha: ");
+        int senha = scan.nextInt();
+
+        if (senha ==1234) {
+            System.out.println("Acesso liberado ");
+        } else {
+            System.out.println("Acesso negado");
+        }
     }
 
 }
